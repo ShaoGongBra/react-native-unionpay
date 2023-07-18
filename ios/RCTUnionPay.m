@@ -27,15 +27,11 @@ RCT_EXPORT_MODULE();
         [[NSNotificationCenter defaultCenter] removeObserver:self];
     }
     
-    - (NSArray<NSString *> *)supportedEvents {
-        return @[@"UnionPay_Resp"];
-    }
-    
     - (BOOL)handleOpenURL:(NSNotification *)notification
     {
         NSString * aURLString =  [notification userInfo][@"url"];
         NSURL * url = [NSURL URLWithString:aURLString];
-        NSArray *schemes = [NSArray arrayWithObjects:@"uppaysdk", @"uppaywallet", @"uppayx1", @"uppayx2", @"uppayx3", self.schemeStr, nil];
+        NSArray *schemes = [NSArray arrayWithObjects:@"duxapp", @"uppaysdk", @"uppaywallet", @"uppayx1", @"uppayx2", @"uppayx3", self.schemeStr, nil];
         BOOL canOpen = false;
         for (NSString *scheme in schemes) {
             canOpen = [aURLString hasPrefix:scheme];
@@ -51,30 +47,45 @@ RCT_EXPORT_MODULE();
                 //body = @{@"code" : code};
                 [body setObject:code forKey:@"code"];
                 
-                [self sendEventWithName:@"UnionPay_Resp" body: body];
+                if(self.payResolve) {
+                    self.payResolve(@{
+                        @"code": code
+                    });
+                }
+                
                 
             }];
         }
         return canOpen;
     }
     
-    RCT_EXPORT_METHOD(startPay:(NSString *)tn mode:(NSString*)mode callback:(RCTResponseSenderBlock)callback)
+    RCT_EXPORT_METHOD(startPay:(NSString *)tn mode:(NSString*)mode resolve:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
     {
         if(self.schemeStr == nil) {
-            callback(@[URL_SCHEMES_NOT_DEFINED]);
+            resolve(@{
+                @"code": URL_SCHEMES_NOT_DEFINED
+            });
             return;
         }
         
         UIWindow *window = [UIApplication sharedApplication].keyWindow;
         UIViewController *rootViewController = window.rootViewController;
         Boolean result = [[UPPaymentControl defaultControl] startPay:tn fromScheme:self.schemeStr mode:mode viewController:rootViewController];
+        if(!result) {
+            resolve(@{
+                @"code": @"fail"
+            });
+        }
+        self.payResolve = resolve;
         
-        callback(result ? @[[NSNull null]] : @[@"fail"]);
     }
-    RCT_EXPORT_METHOD(isPaymentAppInstalled:(RCTResponseSenderBlock)callback)
+    RCT_EXPORT_METHOD(isAppInstalled:(NSString *)mode
+                      withMerchantInfo:(NSString *)withMerchantInfo
+                      resolve:(RCTPromiseResolveBlock)resolve
+                      reject:(RCTPromiseRejectBlock)reject)
     {
-        Boolean result = [[UPPaymentControl defaultControl] isPaymentAppInstalled];
-        
-        callback(result ? @[[NSNull null]]: @[@"fail"]);
+        Boolean result = [[UPPaymentControl defaultControl] isPaymentAppInstalled:mode withMerchantInfo:withMerchantInfo];
+
+        resolve(@(result));
     }
     @end

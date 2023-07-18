@@ -1,6 +1,6 @@
 {
-  "name": "react-native-unionpay",
-  "version": "0.0.1",
+  "name": "@shaogong/react-native-unionpay",
+  "version": "0.0.2",
   "description": "云闪付 ReactNative SDK",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "https://github.com/ShaoGongBra/react-native-unionpay.git"
   },
   "keywords": [
-    "wechat",
+    "union",
+    "pay",
     "react-native",
     "react",
     "react-component",

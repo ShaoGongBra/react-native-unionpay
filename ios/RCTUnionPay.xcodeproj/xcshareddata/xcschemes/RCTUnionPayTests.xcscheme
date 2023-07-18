@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "10D6D7A31F160C250066F0F3"
-               BuildableName = "RCTWeChatTests.xctest"
-               BlueprintName = "RCTWeChatTests"
-               ReferencedContainer = "container:RCTWeChat.xcodeproj">
+               BuildableName = "RCTRCTUnionPayTests.xctest"
+               BlueprintName = "RCTRCTUnionPayTests"
+               ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "10D6D7A31F160C250066F0F3"
-               BuildableName = "RCTWeChatTests.xctest"
-               BlueprintName = "RCTWeChatTests"
-               ReferencedContainer = "container:RCTWeChat.xcodeproj">
+               BuildableName = "RCTRCTUnionPayTests.xctest"
+               BlueprintName = "RCTRCTUnionPayTests"
+               ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10D6D7A31F160C250066F0F3"
-            BuildableName = "RCTWeChatTests.xctest"
-            BlueprintName = "RCTWeChatTests"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "RCTRCTUnionPayTests.xctest"
+            BlueprintName = "RCTRCTUnionPayTests"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10D6D7A31F160C250066F0F3"
-            BuildableName = "RCTWeChatTests.xctest"
-            BlueprintName = "RCTWeChatTests"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "RCTRCTUnionPayTests.xctest"
+            BlueprintName = "RCTRCTUnionPayTests"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10D6D7A31F160C250066F0F3"
-            BuildableName = "RCTWeChatTests.xctest"
-            BlueprintName = "RCTWeChatTests"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "RCTRCTUnionPayTests.xctest"
+            BlueprintName = "RCTRCTUnionPayTests"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

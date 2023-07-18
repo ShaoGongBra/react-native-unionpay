@@ -42,8 +42,9 @@ public class UnionPayModule extends ReactContextBaseJavaModule implements Activi
   }
 
   @ReactMethod
-  public boolean checkWalletInstalled() {
-    return UPPayAssistEx.checkWalletInstalled(reactContent);
+  public void isAppInstalled(String serverMode, String merId, Promise promise) {
+    Boolean status = UPPayAssistEx.checkWalletInstalled(reactContent, serverMode, merId);
+    payPromise.resolve(status);
   }
 
   @Override

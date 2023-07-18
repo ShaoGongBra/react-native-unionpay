@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D6D7A71F160C250066F0F3 /* RCTWeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */; };
-		10D6D7A91F160C250066F0F3 /* libRCTWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */; };
+		10D6D7A71F160C250066F0F3 /* RCTRCTUnionPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6D7A61F160C250066F0F3 /* RCTRCTUnionPayTests.m */; };
+		10D6D7A91F160C250066F0F3 /* libRCTRCTUnionPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D238421BD0BB9E00C75D01 /* libRCTRCTUnionPay.a */; };
 		10D6D7AF1F160C3A0066F0F3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6D76D1F160B090066F0F3 /* libReact.a */; };
-		86D238561BD0BC1000C75D01 /* RCTWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D238551BD0BC1000C75D01 /* RCTWeChat.m */; };
-		86D2385D1BD0CA3D00C75D01 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D238571BD0BC2200C75D01 /* libWeChatSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		86D238561BD0BC1000C75D01 /* RCTRCTUnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D238551BD0BC1000C75D01 /* RCTRCTUnionPay.m */; };
+		86D2385D1BD0CA3D00C75D01 /* libRCTUnionPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D238571BD0BC2200C75D01 /* libRCTUnionPaySDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +104,7 @@
 			containerPortal = 86D2383A1BD0BB9E00C75D01 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86D238411BD0BB9E00C75D01;
-			remoteInfo = RCTWeChat;
+			remoteInfo = RCTRCTUnionPay;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -122,13 +122,13 @@
 
 /* Begin PBXFileReference section */
 		10D6D75D1F160B090066F0F3 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		10D6D7A41F160C250066F0F3 /* RCTWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTWeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWeChatTests.m; sourceTree = "<group>"; };
+		10D6D7A41F160C250066F0F3 /* RCTRCTUnionPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTRCTUnionPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D6D7A61F160C250066F0F3 /* RCTRCTUnionPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTRCTUnionPayTests.m; sourceTree = "<group>"; };
 		10D6D7A81F160C250066F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTWeChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D238541BD0BC1000C75D01 /* RCTWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWeChat.h; sourceTree = SOURCE_ROOT; };
-		86D238551BD0BC1000C75D01 /* RCTWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWeChat.m; sourceTree = SOURCE_ROOT; };
-		86D238571BD0BC2200C75D01 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		86D238421BD0BB9E00C75D01 /* libRCTRCTUnionPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTRCTUnionPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D238541BD0BC1000C75D01 /* RCTRCTUnionPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTRCTUnionPay.h; sourceTree = SOURCE_ROOT; };
+		86D238551BD0BC1000C75D01 /* RCTRCTUnionPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRCTUnionPay.m; sourceTree = SOURCE_ROOT; };
+		86D238571BD0BC2200C75D01 /* libRCTUnionPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRCTUnionPaySDK.a; sourceTree = "<group>"; };
 		86D238581BD0BC2200C75D01 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		86D238591BD0BC2200C75D01 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D6D7AF1F160C3A0066F0F3 /* libReact.a in Frameworks */,
-				10D6D7A91F160C250066F0F3 /* libRCTWeChat.a in Frameworks */,
+				10D6D7A91F160C250066F0F3 /* libRCTRCTUnionPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D2385D1BD0CA3D00C75D01 /* libWeChatSDK.a in Frameworks */,
+				86D2385D1BD0CA3D00C75D01 /* libRCTUnionPaySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,23 +173,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10D6D7A51F160C250066F0F3 /* RCTWeChatTests */ = {
+		10D6D7A51F160C250066F0F3 /* RCTRCTUnionPayTests */ = {
 			isa = PBXGroup;
 			children = (
-				10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */,
+				10D6D7A61F160C250066F0F3 /* RCTRCTUnionPayTests.m */,
 				10D6D7A81F160C250066F0F3 /* Info.plist */,
 			);
-			path = RCTWeChatTests;
+			path = RCTRCTUnionPayTests;
 			sourceTree = "<group>";
 		};
 		86D238391BD0BB9E00C75D01 = {
 			isa = PBXGroup;
 			children = (
-				86D238571BD0BC2200C75D01 /* libWeChatSDK.a */,
+				86D238571BD0BC2200C75D01 /* libRCTUnionPaySDK.a */,
 				86D238581BD0BC2200C75D01 /* WXApi.h */,
 				86D238591BD0BC2200C75D01 /* WXApiObject.h */,
-				86D238441BD0BB9E00C75D01 /* RCTWeChat */,
-				10D6D7A51F160C250066F0F3 /* RCTWeChatTests */,
+				86D238441BD0BB9E00C75D01 /* RCTRCTUnionPay */,
+				10D6D7A51F160C250066F0F3 /* RCTRCTUnionPayTests */,
 				86D238431BD0BB9E00C75D01 /* Products */,
 				10D6D75D1F160B090066F0F3 /* React.xcodeproj */,
 			);
@@ -198,27 +198,27 @@
 		86D238431BD0BB9E00C75D01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */,
-				10D6D7A41F160C250066F0F3 /* RCTWeChatTests.xctest */,
+				86D238421BD0BB9E00C75D01 /* libRCTRCTUnionPay.a */,
+				10D6D7A41F160C250066F0F3 /* RCTRCTUnionPayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86D238441BD0BB9E00C75D01 /* RCTWeChat */ = {
+		86D238441BD0BB9E00C75D01 /* RCTRCTUnionPay */ = {
 			isa = PBXGroup;
 			children = (
-				86D238541BD0BC1000C75D01 /* RCTWeChat.h */,
-				86D238551BD0BC1000C75D01 /* RCTWeChat.m */,
+				86D238541BD0BC1000C75D01 /* RCTRCTUnionPay.h */,
+				86D238551BD0BC1000C75D01 /* RCTRCTUnionPay.m */,
 			);
-			path = RCTWeChat;
+			path = RCTRCTUnionPay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10D6D7A31F160C250066F0F3 /* RCTWeChatTests */ = {
+		10D6D7A31F160C250066F0F3 /* RCTRCTUnionPayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10D6D7AC1F160C250066F0F3 /* Build configuration list for PBXNativeTarget "RCTWeChatTests" */;
+			buildConfigurationList = 10D6D7AC1F160C250066F0F3 /* Build configuration list for PBXNativeTarget "RCTRCTUnionPayTests" */;
 			buildPhases = (
 				10D6D7A01F160C250066F0F3 /* Sources */,
 				10D6D7A11F160C250066F0F3 /* Frameworks */,
@@ -229,14 +229,14 @@
 			dependencies = (
 				10D6D7AB1F160C250066F0F3 /* PBXTargetDependency */,
 			);
-			name = RCTWeChatTests;
-			productName = RCTWeChatTests;
-			productReference = 10D6D7A41F160C250066F0F3 /* RCTWeChatTests.xctest */;
+			name = RCTRCTUnionPayTests;
+			productName = RCTRCTUnionPayTests;
+			productReference = 10D6D7A41F160C250066F0F3 /* RCTRCTUnionPayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		86D238411BD0BB9E00C75D01 /* RCTWeChat */ = {
+		86D238411BD0BB9E00C75D01 /* RCTRCTUnionPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86D2384B1BD0BB9E00C75D01 /* Build configuration list for PBXNativeTarget "RCTWeChat" */;
+			buildConfigurationList = 86D2384B1BD0BB9E00C75D01 /* Build configuration list for PBXNativeTarget "RCTRCTUnionPay" */;
 			buildPhases = (
 				86D2383E1BD0BB9E00C75D01 /* Sources */,
 				86D2383F1BD0BB9E00C75D01 /* Frameworks */,
@@ -246,9 +246,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTWeChat;
-			productName = RCTWeChat;
-			productReference = 86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */;
+			name = RCTRCTUnionPay;
+			productName = RCTRCTUnionPay;
+			productReference = 86D238421BD0BB9E00C75D01 /* libRCTRCTUnionPay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86D2383D1BD0BB9E00C75D01 /* Build configuration list for PBXProject "RCTWeChat" */;
+			buildConfigurationList = 86D2383D1BD0BB9E00C75D01 /* Build configuration list for PBXProject "RCTRCTUnionPay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -289,8 +289,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				86D238411BD0BB9E00C75D01 /* RCTWeChat */,
-				10D6D7A31F160C250066F0F3 /* RCTWeChatTests */,
+				86D238411BD0BB9E00C75D01 /* RCTRCTUnionPay */,
+				10D6D7A31F160C250066F0F3 /* RCTRCTUnionPayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D6D7A71F160C250066F0F3 /* RCTWeChatTests.m in Sources */,
+				10D6D7A71F160C250066F0F3 /* RCTRCTUnionPayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D238561BD0BC1000C75D01 /* RCTWeChat.m in Sources */,
+				86D238561BD0BC1000C75D01 /* RCTRCTUnionPay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +414,7 @@
 /* Begin PBXTargetDependency section */
 		10D6D7AB1F160C250066F0F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86D238411BD0BB9E00C75D01 /* RCTWeChat */;
+			target = 86D238411BD0BB9E00C75D01 /* RCTRCTUnionPay */;
 			targetProxy = 10D6D7AA1F160C250066F0F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,10 +430,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QMP96B5DPW;
-				INFOPLIST_FILE = RCTWeChatTests/Info.plist;
+				INFOPLIST_FILE = RCTRCTUnionPayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = snowfox.RCTWeChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = snowfox.RCTRCTUnionPayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -448,10 +448,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QMP96B5DPW;
-				INFOPLIST_FILE = RCTWeChatTests/Info.plist;
+				INFOPLIST_FILE = RCTRCTUnionPayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = snowfox.RCTWeChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = snowfox.RCTRCTUnionPayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10D6D7AC1F160C250066F0F3 /* Build configuration list for PBXNativeTarget "RCTWeChatTests" */ = {
+		10D6D7AC1F160C250066F0F3 /* Build configuration list for PBXNativeTarget "RCTRCTUnionPayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10D6D7AD1F160C250066F0F3 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86D2383D1BD0BB9E00C75D01 /* Build configuration list for PBXProject "RCTWeChat" */ = {
+		86D2383D1BD0BB9E00C75D01 /* Build configuration list for PBXProject "RCTRCTUnionPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86D238491BD0BB9E00C75D01 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86D2384B1BD0BB9E00C75D01 /* Build configuration list for PBXNativeTarget "RCTWeChat" */ = {
+		86D2384B1BD0BB9E00C75D01 /* Build configuration list for PBXNativeTarget "RCTRCTUnionPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86D2384C1BD0BB9E00C75D01 /* Debug */,

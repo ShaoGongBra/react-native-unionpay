@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86D238411BD0BB9E00C75D01"
-               BuildableName = "libRCTWeChat.a"
-               BlueprintName = "RCTWeChat"
-               ReferencedContainer = "container:RCTWeChat.xcodeproj">
+               BuildableName = "libRCTRCTUnionPay.a"
+               BlueprintName = "RCTRCTUnionPay"
+               ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86D238411BD0BB9E00C75D01"
-            BuildableName = "libRCTWeChat.a"
-            BlueprintName = "RCTWeChat"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "libRCTRCTUnionPay.a"
+            BlueprintName = "RCTRCTUnionPay"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86D238411BD0BB9E00C75D01"
-            BuildableName = "libRCTWeChat.a"
-            BlueprintName = "RCTWeChat"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "libRCTRCTUnionPay.a"
+            BlueprintName = "RCTRCTUnionPay"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86D238411BD0BB9E00C75D01"
-            BuildableName = "libRCTWeChat.a"
-            BlueprintName = "RCTWeChat"
-            ReferencedContainer = "container:RCTWeChat.xcodeproj">
+            BuildableName = "libRCTRCTUnionPay.a"
+            BlueprintName = "RCTRCTUnionPay"
+            ReferencedContainer = "container:RCTRCTUnionPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
