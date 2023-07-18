@@ -1,6 +1,6 @@
 {
   "name": "react-native-unionpay",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "云闪付 ReactNative SDK",
   "main": "index.js",
   "scripts": {
