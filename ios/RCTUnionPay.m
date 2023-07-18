@@ -31,7 +31,7 @@ RCT_EXPORT_MODULE();
     {
         NSString * aURLString =  [notification userInfo][@"url"];
         NSURL * url = [NSURL URLWithString:aURLString];
-        NSArray *schemes = [NSArray arrayWithObjects:@"duxapp", @"uppaysdk", @"uppaywallet", @"uppayx1", @"uppayx2", @"uppayx3", self.schemeStr, nil];
+        NSArray *schemes = [NSArray arrayWithObjects:@"uppaysdk", @"uppaywallet", @"uppayx1", @"uppayx2", @"uppayx3", self.schemeStr, nil];
         BOOL canOpen = false;
         for (NSString *scheme in schemes) {
             canOpen = [aURLString hasPrefix:scheme];

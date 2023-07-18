@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "ios/paymentcontrol/libs/*.a"
   s.requires_arc = true
   s.frameworks = 'CFNetwork','SystemConfiguration'
+  s.library = "z"
 end
