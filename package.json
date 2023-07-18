@@ -1,6 +1,6 @@
 {
   "name": "@shaogong/react-native-unionpay",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "云闪付 ReactNative SDK",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,9 @@
     "ios"
   ],
   "dependencies": {
-    "events": "1.0.1"
+
   },
-  "peerDependencies": {
-    "react-native": ">=0.40"
-  },
-  "author": "ShaoGongBra <fox@aili.pro>",
+  "author": "ShaoGongBra <908634674@qq.com>",
   "contributors": [
     {
       "name": "ShaoGongBra",
